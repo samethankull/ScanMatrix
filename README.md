@@ -15,14 +15,31 @@
 
 ## Features / *Özellikler*
 
-- **Feature 1:** Description of the feature.  
-  *Özellik 1: Özelliğin açıklaması.*
-- **Feature 2:** Another cool thing it does.  
-  *Özellik 2: Yaptığı başka bir harika şey.*
-- **Feature 3:** One more for good measure.  
-  *Özellik 3: Ve bir tane daha.*
-- Add more as they develop.  
-  *Geliştikçe daha fazla ekleyin.*
+- **Feature 1:**  Host Keşfi
+  *ARP Taraması: Scapy ile IP/MAC/vendor, stealth mod, ~1-2 sn.
+  Nmap Ping: Nmap -sn ile host/MAC, ~4-6 sn.
+  Sıralı Çıktı: IP’ler artan sırayla..*
+- **Feature 2:**  Port Taraması  
+  *Özellik 2: TCP SYN: Scapy, 15 port/grup, timeout 0.08/0.03 sn, ~0.4-3 sn.
+  Atlamasız: Retry=2 ile eksik port tarama.
+Sıralı: IP/port artan sırayla.*
+- **Feature 3:** Servis ve OS Tespiti.  
+  *Özellik 3: Nmap Taraması: -sV (servis), -O (OS), proxy, ~3-5 sn.
+  Veri İşleme: Servis/OS bilgisi, hata kontrolü.
+  Sıralı: IP/port/OS sıralı.
+- **Feature 4:**  Zafiyet Taraması
+- *Özellik 4:  Nmap NSE: CVE tespiti, ~5-10 sn.
+  Çıktı: Kırmızı tablo, CSV/HTML/JSON.
+  Hata Önleme: NSE hata yakalama.
+  - **Feature 5:**  Vendor Bilgileri 
+- *Özellik 5: API: macvendors.com ile vendor, ~0.1 sn.
+  Hata Yedekleme: Hata durumunda "Unknown".
+- **Feature 6:**  Çıktı ve Raporlama
+- *Özellik 6: Terminal: Yeşil/sarı bilgi, kırmızı zafiyet, cyan başlık.
+    JSON: Dosyaya yazılır (hosts, ports, vuln).
+    CSV: Host/port/OS/vuln için ayrı dosyalar.
+    HTML: Jinja2 ile biçimli rapor.
+    Topoloji: NetworkX ile PNG, ~0.5 sn.
 
 ---
 
