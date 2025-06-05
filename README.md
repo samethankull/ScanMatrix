@@ -8,10 +8,10 @@
 </div>
 
 # Project Name
-*Proje Adı*
+*ScanMatrix*
 
 A brief, engaging description of your project.  
-*Projenizin kısa ve ilgi çekici bir açıklaması.*
+*Bu Python tabanlı ağ güvenliği aracı, ağ tarama ve analiz süreçlerini otomatikleştiren, kapsamlı ve kullanıcı dostu bir çözümdür. Araç, açık port tarama, banner grabbing, sistem ve versiyon bilgisi toplama, TCPdump benzeri ağ trafiği analizi ve CVE veritabanından güvenlik açığı tarama gibi özellikler sunar. Grafana tarzı görselleştirme ile veriler düzenli ve görsel olarak sunulurken, sistem güvenilirliğini low, medium, high, critical olarak derecelendirir. MAC adresi tespiti ve ilk 6 hanesinden hizmet türü belirleme, firewall varlığı kontrolü ve proxy listeleriyle firewall bypass yetenekleri içerir. Gerçek zamanlı monitör ve uyarı sistemi ile ağ trafiğini gelişmiş görselleştirme araçlarıyla izler. Esnek, güvenli ve kullanıcı odaklı bu araç, ağ güvenliği analizlerini kolaylaştırır ve potansiyel tehditleri proaktif bir şekilde tespit eder..*
 
 ---
 
@@ -30,13 +30,12 @@ A brief, engaging description of your project.
 
 ## Team / *Ekip*
 
-- **219*****031** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- **Another Member** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- Add more members as needed.  
-  *Gerektiğinde daha fazla üye ekleyin.*
-
+- **219*****031** - Name Surname:
+  *Samethan Kül*
+- **Another Member** - Name Surname:   
+  *Ad Soyad: Eren Ergün*
+- Member 3 - Name Surname:  
+  *Ad Soyad: İbrahim Yiğit Çetin*
 ---
 
 ## Roadmap / *Yol Haritası*
@@ -60,8 +59,8 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 1. **Clone the Repository / *Depoyu Klonlayın***:  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
+   [git clone https://github.com/samethankull/ScanMatrix.git]
+   cd ScanMatrix
    ```
 
 2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
