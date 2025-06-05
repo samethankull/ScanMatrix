@@ -74,8 +74,8 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 | Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
 |-------------------------|-----------------------------------------|------------------------------------------------|
-| ScanMatrix Deep      | [researchs/a](researchs/deepsearch.md) | In-depth analysis of Aircrack-ng suite. / *Aircrack-ng paketinin derinlemesine analizi.* |
-| Example Research Pdf  | [researchs/deepsearch.01.md](researchs/deepsearch.01.md) | Brief overview of this research. / *Bu araştırmanın kısa bir özeti.* |
+| ScanMatrix DeepSearch    | [researchs/deepsearch.01.result.md](researchs/deepsearch.01.result.md) | In-depth analysis of Aircrack-ng suite. / *Aircrack-ng paketinin derinlemesine analizi.* |
+| Example Research Pdf  | [researchs/deepsearch.01.md](researchs/deepsearch.01.result.pdf) | Brief overview of this research. / *Bu araştırmanın kısa bir özeti.* |
 | Add More Research       | *Link to your other research files*     | *Description of the research*                  |
 
 ---
