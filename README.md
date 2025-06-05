@@ -28,9 +28,9 @@
 
 ## Team / *Ekip*
 
-- **219*****031** - Name Surname:
-  *Samethan Kül*
-- **Another Member** - Name Surname:   
+- Member 1 - Name Surname:  
+  *Ad Soyad: Samethan Kül*
+- Member 2 - Name Surname:   
   *Ad Soyad: Eren Ergün*
 - Member 3 - Name Surname:  
   *Ad Soyad: İbrahim Yiğit Çetin*
