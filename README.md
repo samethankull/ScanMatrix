@@ -131,10 +131,12 @@ Thanks to:
 
 ## Contact / *İletişim* (Optional)
 
-Project Maintainer: [Your Name/Org Name] - [your.email@example.com]  
+[Samethan Kül] - [samethan.kul@istinye.edu.tr]
+[Eren Ergün] - [eren.ergun@istinye.edu.tr] 
+[İbrahim Yiğit Çetin] - [ibrahimyigit.cetin@istinye.edu.tr] 
 Found a bug? Open an issue.  
 
-*Proje Sorumlusu: [Adınız/Kuruluş Adınız] - [e-posta.adresiniz@ornek.com]. Hata bulursanız bir sorun bildirin.*
+*Proje Sorumlusu: [Samethan Kül] - [samehan.kul@istinye.edu.tr]. Hata bulursanız bir sorun bildirin.*
 
 ---
 
