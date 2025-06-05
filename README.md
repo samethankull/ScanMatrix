@@ -16,7 +16,7 @@
 ## Features / *Özellikler*
 
 - **Feature 1:**  Host Keşfi
-  *ARP Taraması: Scapy ile IP/MAC/vendor, stealth mod, ~1-2 sn.
+-  *Özellik 1: *ARP Taraması: Scapy ile IP/MAC/vendor, stealth mod, ~1-2 sn.
   Nmap Ping: Nmap -sn ile host/MAC, ~4-6 sn.
   Sıralı Çıktı: IP’ler artan sırayla..*
 - **Feature 2:**  Port Taraması  
