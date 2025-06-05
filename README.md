@@ -132,7 +132,9 @@ Thanks to:
 ## Contact / *İletişim* (Optional)
 
 [Samethan Kül] - [samethan.kul@istinye.edu.tr]
+
 [Eren Ergün] - [eren.ergun@istinye.edu.tr] 
+
 [İbrahim Yiğit Çetin] - [ibrahimyigit.cetin@istinye.edu.tr] 
 Found a bug? Open an issue.  
 
