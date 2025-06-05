@@ -104,7 +104,9 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 ## Usage / *Kullanım*
 
 Run the project:  
-*python ScanMatrix.py*
+ ```bash
+   python ScanMatrix.py
+   ```
 
 
 
