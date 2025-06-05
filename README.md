@@ -8,9 +8,7 @@
 </div>
 
 # Project Name
-*ScanMatrix*
-
-A brief, engaging description of your project.  
+*ScanMatrix* 
 *Bu Python tabanlı ağ güvenliği aracı, ağ tarama ve analiz süreçlerini otomatikleştiren, kapsamlı ve kullanıcı dostu bir çözümdür. Araç, açık port tarama, banner grabbing, sistem ve versiyon bilgisi toplama, TCPdump benzeri ağ trafiği analizi ve CVE veritabanından güvenlik açığı tarama gibi özellikler sunar. Grafana tarzı görselleştirme ile veriler düzenli ve görsel olarak sunulurken, sistem güvenilirliğini low, medium, high, critical olarak derecelendirir. MAC adresi tespiti ve ilk 6 hanesinden hizmet türü belirleme, firewall varlığı kontrolü ve proxy listeleriyle firewall bypass yetenekleri içerir. Gerçek zamanlı monitör ve uyarı sistemi ile ağ trafiğini gelişmiş görselleştirme araçlarıyla izler. Esnek, güvenli ve kullanıcı odaklı bu araç, ağ güvenliği analizlerini kolaylaştırır ve potansiyel tehditleri proaktif bir şekilde tespit eder..*
 
 ---
