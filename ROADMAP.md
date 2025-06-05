@@ -51,3 +51,6 @@
 - **Kilometre Taşı 4.2: Sıfır Gün ve APT Tespiti**  
   - **Teslimatlar:** Davranış analizi modülü; tehdit istihbaratı entegrasyonu.  
   - **Faaliyetler:** Tehdit istihbaratı iş birliği; anomali tespiti geliştirme.
+
+
+## Aşamalar Sürekli Güncellenecektir. Yeni adımlar eklenecek
