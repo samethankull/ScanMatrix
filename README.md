@@ -31,7 +31,7 @@ Sıralı: IP/port artan sırayla.*
 - *Özellik 4:  Nmap NSE: CVE tespiti, ~5-10 sn.
   Çıktı: Kırmızı tablo, CSV/HTML/JSON.
   Hata Önleme: NSE hata yakalama.
-  - **Feature 5:**  Vendor Bilgileri 
+  -* *Feature 5:**  Vendor Bilgileri 
 - *Özellik 5: API: macvendors.com ile vendor, ~0.1 sn.
   Hata Yedekleme: Hata durumunda "Unknown".
 - **Feature 6:**  Çıktı ve Raporlama
