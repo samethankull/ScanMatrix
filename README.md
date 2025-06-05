@@ -40,6 +40,16 @@ Sıralı: IP/port artan sırayla.*
     CSV: Host/port/OS/vuln için ayrı dosyalar.
     HTML: Jinja2 ile biçimli rapor.
     Topoloji: NetworkX ile PNG, ~0.5 sn.
+- **Feature 7:**  Güvenlik ve Gizlilik
+- *Özellik 7:Stealth Modu: Sahte MAC ile gizlilik.
+  Proxy: Nmap için proxy desteği.
+  Loglama: Hatalar network_scanner.log’a.
+- **Feature 8:** Hata Önleme ve Stabilite
+- *Özellik 8: Hata Yakalama: Tarama/API için try-except.
+  Nmap Kontrolü: Veri tipi hataları önleme.
+  İlerleme Çubuğu: Progressbar ile takip
+
+
 
 ---
 
