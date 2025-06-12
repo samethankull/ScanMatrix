@@ -1,8 +1,7 @@
 **Proje ve Hedefler ve Ozellikler:** 
 
 
-ScanMatrix Bu Python tabanlı ağ güvenliği aracı, ağ tarama ve analiz süreçlerini otomatikleştiren, kapsamlı ve kullanıcı dostu bir çözümdür. Araç, açık port tarama, banner grabbing, sistem ve versiyon bilgisi toplama, TCPdump benzeri ağ trafiği analizi ve CVE veritabanından güvenlik açığı tarama gibi özellikler sunar. Grafana tarzı görselleştirme ile veriler düzenli ve görsel olarak sunulurken, sistem güvenilirliğini low, medium, high, critical olarak derecelendirir. MAC adresi tespiti ve ilk 6 hanesinden hizmet türü belirleme, firewall varlığı kontrolü ve proxy listeleriyle firewall bypass yetenekleri içerir. Gerçek zamanlı monitör ve uyarı sistemi ile ağ trafiğini gelişmiş görselleştirme araçlarıyla izler. Esnek, güvenli ve kullanıcı odaklı bu araç, ağ güvenliği analizlerini kolaylaştırır ve potansiyel tehditleri proaktif bir şekilde tespit eder.
-
+ScanMatrixBu proje, Python tabanlı, ağ güvenliği odaklı, kapsamlı bir ağ tarama ve analiz aracıdır. Yerel ağlarda cihaz keşfi, port tarama, hizmet/versiyon tespiti, işletim sistemi analizi ve zafiyet tarama gibi işlevleri birleştirerek ağların güvenlik durumunu değerlendirmek için tasarlanmıştır. Scapy, Nmap, NetworkX, Matplotlib, Tkinter ve Jinja2 gibi güçlü kütüphaneleri kullanarak hem teknik hem de kullanıcı dostu bir deneyim sunar. Araç, asenkron programlama ve çoklu iş parçacığı ile yüksek performans sağlar; hem komut satırı hem de grafiksel kullanıcı arayüzü (GUI) desteğiyle esneklik sunar. Aşağıda aracın detaylı özellikleri, bileşenleri ve işlevleri açıklanmaktadır.
 
 
 
