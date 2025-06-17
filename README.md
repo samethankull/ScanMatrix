@@ -122,7 +122,6 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 |-------------------------|-----------------------------------------|------------------------------------------------|
 | ScanMatrix DeepSearch    | [researchs/deepsearch.01.result.md](researchs/deepsearch.01.result.md) | Araç hakkında deepsearch bilgisi.* |
 | Example Research Pdf  | [researchs/deepsearch.01.md](researchs/deepsearch.01.result.pdf) | Araştırma sonucunda oluşturulan pdf dosyası* |
-| Add More Research       | *Link to your other research files*     | *Description of the research*                  |
 | ScanMatrix DeepSearch    | [researchs/deepsearch.02.result.md](researchs/deepsearch.02.result.md) | Araç hakkında deepsearch bilgisi.* |
 
 ---
