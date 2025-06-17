@@ -38,7 +38,7 @@ ScanMatrix, Bu proje, Python tabanlı, ağ güvenliği odaklı, kapsamlı bir a�
 
 
 
-**Örnek Alanlar (Projenize Göre Değiştirin):**
+**Örnek Alanlar:**
 
 - Yazılım Geliştirme Metodolojileri
 
