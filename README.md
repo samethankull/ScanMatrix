@@ -99,14 +99,13 @@
 
 ---
 
-## Team / *Ekip*
+## 👥 Ekip
 
-- Member 1 - Name Surname:  
-  *Ad Soyad: Samethan Kül*
-- Member 2 - Name Surname:   
-  *Ad Soyad: Eren Ergün*
-- Member 3 - Name Surname:  
-  *Ad Soyad: İbrahim Yiğit Çetin*
+| Ad Soyad                | Rol              |
+|-------------------------|------------------|
+| Samethan Kül            | Geliştirici      |
+| Eren Ergün              | Geliştirici      |
+| İbrahim Yiğit Çetin     | Geliştirici      |
 ---
 
 ## Roadmap / *Yol Haritası*
