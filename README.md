@@ -172,11 +172,11 @@ Taramayı özelleştirmek için aşağıdaki seçenekleri kullanabilirsiniz:
 ### Örnek Komutlar
 Hedefe yönelik tarama:
 ```bash
-python src/ScanMatrix.py --target 192.168.1.0/24 --ports 80,443,22 --stealth
+python ScanMatrix.py --target 192.168.1.0/24 --ports 80,443,22 --stealth
 ```
 Proxy ile gizli tarama:
 ```bash
-python src/ScanMatrix.py --target 192.168.1.0/24 --stealth --proxies [geçersiz url, alıntı yapmayın]
+python ScanMatrix.py --target 192.168.1.0/24 --stealth --proxies [geçersiz url, alıntı yapmayın]
 ```
 
 ## 📊 Çıktılar
