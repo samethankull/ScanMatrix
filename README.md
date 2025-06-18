@@ -147,26 +147,67 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 ---
 
-## Usage / *Kullanım*
+# 🚀 Temel Kullanım
+Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 
-Run the project:  
- ```bash
-   python ScanMatrix.py
-   ```
+## 🧪 Ağ Tarayıcı
+### Temel Çalıştırma:
+```bash
+python src/ScanMatrix.py --target 192.168.1.0/24
+```
+### Grafik Arayüz ile Çalıştırma:
+```bash
+python src/ScanMatrix.py --gui
+```
+Bu komut, hedef IP ve seçenekleri girmek için bir grafik arayüz açar, kullanıcı dostu bir deneyim sunar.
 
+## 🔹 Ek Seçenekler
+Taramayı özelleştirmek için aşağıdaki seçenekleri kullanabilirsiniz:
+- **Port Belirtimi**: Belirli portları taramak için, örneğin `--ports 80,443,22` ile web ve SSH portlarını tarayın.
+- **Tarama Hızı**: `--rate` ile tarama hızını ayarlayın (varsayılan 100 paket/saniye).
+- **Proxy'ler**: Gizlilik için `--proxies [geçersiz url, alıntı yapmayın]` gibi proxy sunucuları kullanın.
+- **Çıktı Formatı**: JSON, CSV veya her ikisi (`both`, varsayılan) için `--output` seçeneğini kullanın.
+- **Ayrıntılı Çıktı**: Ayrıntılı günlük için `-v` veya `--verbose` ekleyin.
+- **Gizli Mod**: Tespit edilme riskini azaltmak için `--stealth` ile MAC adresi sahteciliği etkinleştirin.
 
+### Örnek Komutlar
+Hedefe yönelik tarama:
+```bash
+python src/ScanMatrix.py --target 192.168.1.0/24 --ports 80,443,22 --stealth
+```
+Proxy ile gizli tarama:
+```bash
+python src/ScanMatrix.py --target 192.168.1.0/24 --stealth --proxies [geçersiz url, alıntı yapmayın]
+```
 
-**Steps**:  
-1. Prepare input data (*explain data needed*).  
-2. Run the script with arguments (*explain key arguments*).  
-3. Check output (*explain where to find results*).  
+## 📊 Çıktılar
+Tarama sonrası, sonuçlar konsolda renk kodlu olarak görüntülenir ve aşağıdaki dosyalara kaydedilir:
+- **JSON**: `scan_results_YYYYMMDD_HHMMSS.json` (tüm tarama verileri)
+- **CSV**: `scan_results_hosts_YYYYMMDD_HHMMSS.csv`, `scan_results_ports_YYYYMMDD_HHMMSS.csv` vb.
+- **HTML Rapor**: `report_YYYYMMDD_HHMMSS.html` (tablolarla formatlanmış veri)
+- **Topoloji Görselleştirme**: `topology_YYYYMMDD_HHMMSS.png` (ağ grafiği)
 
-*Adımlar*:  
-1. Giriş verilerini hazırlayın (*ne tür verilere ihtiyaç duyulduğunu açıklayın*).  
-2. Betiği argümanlarla çalıştırın (*önemli argümanları açıklayın*).  
-3. Çıktıyı kontrol edin (*sonuçları nerede bulacağınızı açıklayın*).
+### Örnek Çıktı Yapısı
+| Dosya Türü           | Örnek Dosya Adı                     | İçerik                                    |
+|----------------------|-------------------------------------|-------------------------------------------|
+| JSON                | scan_results_20250618_150730.json   | Tüm tarama sonuçları (hostlar, portlar, OS, zafiyetler) |
+| CSV (Hostlar)       | scan_results_hosts_20250618_150730.csv | IP, MAC, Üretici bilgileri                |
+| CSV (Portlar)       | scan_results_ports_20250618_150730.csv | IP, Port, Durum, Protokol                 |
+| HTML Rapor          | report_20250618_150730.html         | Tüm veriler için formatlanmış tablolar     |
+| PNG (Topoloji)      | topology_20250618_150730.png        | Hostlar ve bağlantıları gösteren ağ grafiği |
 
----
+## 🔐 Tarama Aşamaları
+Tarayıcı, aşağıdaki aşamaları gerçekleştirir:
+1. **Host Keşfi**: ARP ve Nmap ping taramaları ile aktif hostları bulur.
+2. **Port Taraması**: Scapy ile SYN paketi taraması yapar, gizli modda çalışır.
+3. **Versiyon Tespiti**: Nmap ile açık portlarda servis ve versiyon bilgisi alır.
+4. **OS Tespiti**: Hostların işletim sistemlerini belirler.
+5. **Zafiyet Taraması**: Nmap betikleri ve NVD API ile CVE araması yapar.
+
+## 🔧 Notlar
+- **Gizli Mod ve Proxy'ler**: `--stealth` MAC sahteciliği yapar, `--proxies` ile taramalar proxy üzerinden yönlendirilir. Proxy sunucularının güvenilir ve yasal olduğundan emin olun.
+- **NVD API Anahtarı**: Zafiyet taraması için sabit kodlanmış bir API anahtarı kullanılır. Üretim ortamında kendi anahtarınızı [NVD API Dokümantasyonu](https://nvd.nist.gov/developers/start-here) adresinden edinin.
+- **Sınırlamalar**: Küçük ve orta ölçekli ağlar için optimize edilmiştir. Büyük ağlarda performans ayarlaması gerekebilir. Yasal izin olmadan tarama yapmayın.
 
 ## Contributing / *Katkıda Bulunma*
 
