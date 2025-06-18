@@ -152,11 +152,11 @@ Projeyi çalıştırmak için aşağıdaki adımları izleyin:
 ## 🧪 Ağ Tarayıcı
 ### Temel Çalıştırma:
 ```bash
-python src/ScanMatrix.py --target 192.168.1.0/24
+python ScanMatrix.py --target 192.168.1.0/24
 ```
 ### Grafik Arayüz ile Çalıştırma:
 ```bash
-python src/ScanMatrix.py --gui
+python ScanMatrix.py --gui
 ```
 Bu komut, hedef IP ve seçenekleri girmek için bir grafik arayüz açar, kullanıcı dostu bir deneyim sunar.
 
