@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://img.shields.io/github/languages/count/samethankull/Project?style=flat-square&color=blueviolet" alt="Language">
-  <img src="https://img.shields.io/github/languages/top/samethankull/Project?style=flat-square&color=1e90ff" alt="Top Language">
+  <img src="https://img.shields.io/github/languages/top/samethankull/Project?style=flat-square&color=1e90ff" alt="Top Language count ">
   <img src="https://img.shields.io/github/last-commit/samethankull/Project?style=flat-square&color=ff69b4" alt="Last Commit">
   <img src="https://img.shields.io/github/license/samethankull/Project?style=flat-square&color=yellow" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-green?style=flat-square" alt="Status">
