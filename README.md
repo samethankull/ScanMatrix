@@ -120,8 +120,11 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 | Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
 |-------------------------|-----------------------------------------|------------------------------------------------|
 | ScanMatrix DeepSearch    | [researchs/deepsearch.01.result.md](researchs/deepsearch.01.result.md) | Araç hakkında deepsearch bilgisi.* |
-| Example Research Pdf  | [researchs/deepsearch.01.md](researchs/deepsearch.01.result.pdf) | Araştırma sonucunda oluşturulan pdf dosyası* |
-| ScanMatrix DeepSearch    | [researchs/deepsearch.02.result.md](researchs/deepsearch.02.result.md) | Araç hakkında deepsearch bilgisi.* |
+| ScanMatrix DeepSearch 01 Pdf  | [researchs/deepsearch.01.md](researchs/deepsearch.01.result.pdf) | Araştırma sonucunda oluşturulan pdf dosyası* |
+| ScanMatrix DeepSearch 02   | [researchs/deepsearch.02.result.md](researchs/deepsearch.02.result.md) | ScanMatrix deepsearch araştırması* |
+| ScanMatrix DeepSearch 02 Pdf | [researchs/deepsearch.02.result.md](researchs/deepsearch.02.result.pdf) | ScanMatrix deepsearch02 pdf dosyası.* |
+| ScanMatrix DeepSearch 03    | [researchs/deepsearch.02.result.md](researchs/deepsearch.03.result.md) | ScanMatrix aracı hakkında derin araştırma* |
+| ScanMatrix DeepSearch 03 Pdf   | [researchs/deepsearch.02.result.md](researchs/deepsearch.03.result.pdf) | ScanMatrix deepsearch03 pdf dosyası* |
 
 ---
 
